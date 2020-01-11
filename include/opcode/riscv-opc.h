@@ -3,8 +3,8 @@
 #define RISCV_ENCODING_H
 #define MATCH_CII 0x7003
 #define MASK_CII  0x707f
-#define MATCH_CGT 0x200006b
-#define MASK_CGT  0xfe00707f
+#define MATCH_CGT 0x7
+#define MASK_CGT  0x707f
 #define MATCH_SLLI_RV32 0x1013
 #define MASK_SLLI_RV32  0xfe00707f
 #define MATCH_SRLI_RV32 0x5013
