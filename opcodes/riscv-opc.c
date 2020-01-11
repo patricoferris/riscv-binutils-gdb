@@ -246,6 +246,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"and",         0, {"I", 0},   "d,s,t",  MATCH_AND, MASK_AND, match_opcode, 0 },
 {"and",         0, {"I", 0},   "d,s,j",  MATCH_ANDI, MASK_ANDI, match_opcode, INSN_ALIAS },
 {"cii",         0, {"I", 0},   "d,s,j", MATCH_CII, MASK_CII, match_opcode, 0},
+{"cgt",         0, {"I", 0},   "d,s,t", MATCH_CGT, MASK_CGT, match_opcode, 0},
 {"beqz",        0, {"C", 0},   "Cs,Cp",  MATCH_C_BEQZ, MASK_C_BEQZ, match_opcode, INSN_ALIAS|INSN_CONDBRANCH },
 {"beqz",        0, {"I", 0},   "s,p",  MATCH_BEQ, MASK_BEQ | MASK_RS2, match_opcode, INSN_ALIAS|INSN_CONDBRANCH },
 {"beq",         0, {"I", 0},   "s,t,p",  MATCH_BEQ, MASK_BEQ, match_opcode, INSN_CONDBRANCH },
