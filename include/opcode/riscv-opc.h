@@ -5,6 +5,16 @@
 #define MASK_CII  0x707f
 #define MATCH_CGT 0x7
 #define MASK_CGT  0x707f
+#define MATCH_ORN 0x40006033
+#define MASK_ORN  0xfe00707f
+#define MATCH_ANDN 0x40007033
+#define MASK_ANDN  0xfe00707f
+#define MATCH_XORN 0x40004033
+#define MASK_XORN  0xfe00707f
+#define MATCH_MAX 0x40001033
+#define MASK_MAX  0xfe00707f
+#define MATCH_MIN 0x40002033
+#define MASK_MIN  0xfe00707f
 #define MATCH_SLLI_RV32 0x1013
 #define MASK_SLLI_RV32  0xfe00707f
 #define MATCH_SRLI_RV32 0x5013
