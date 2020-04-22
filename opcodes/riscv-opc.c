@@ -252,7 +252,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"min",         0, {"I", 0},   "d,s,t",  MATCH_MIN, MASK_MIN, match_opcode, 0 },
 {"ocadd",       0, {"I", 0},   "d,s,t",  MATCH_OCADD, MASK_OCADD, match_opcode, 0 },
 {"ocsub",       0, {"I", 0},   "d,s,t",  MATCH_OCSUB, MASK_OCSUB, match_opcode, 0 },
-{"ocjmp",       0, {"I", 0},   "d,s,t",  MATCH_OCJMP, MASK_OCJMP, match_opcode, 0 },
+{"oclea",       0, {"I", 0},   "d,s,t",  MATCH_OCLEA, MASK_OCLEA, match_opcode, 0 },
 {"oceqi",       0, {"I", 0},   "d,s,j", MATCH_OCEQI, MASK_OCEQI, match_opcode, 0}, 
 {"ocvali",      0, {"I", 0},   "d,s,j", MATCH_OCVALI, MASK_OCVALI, match_opcode, 0}, 
 {"beqz",        0, {"C", 0},   "Cs,Cp",  MATCH_C_BEQZ, MASK_C_BEQZ, match_opcode, INSN_ALIAS|INSN_CONDBRANCH },
